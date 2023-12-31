@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.c1{
+    height: 5rem;
+    width: 5rem;
+    background-color: yellow;
+}
+.c2{
+    height: 5rem;
+    width: 5rem;
+    background-color: yellowgreen;
+    align-self: flex-start;
+}
+.c3{
+    height: 5rem;
+    width: 5rem;
+    background-color: aqua;
+}
